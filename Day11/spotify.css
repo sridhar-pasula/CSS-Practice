@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: DM Sans,sans-serif;
+}
+
+#nav{
+    border: 2px solid;
+    height: 50px;
+    font-family: SpotifyMixUI, CircularSp, Helvetica, Arial, sans-serif;
+    background-color: black;
+}
+#subnav{
+    height: inherit;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+ol{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 500px;
+    list-style: none;
+    color: white;
+    align-items: center;
+}
+svg{
+    height: 2.3em;
+    fill: white;
+}
+ol li:hover{
+    color: rgb(1, 176, 39);
+    cursor: pointer;
+}
+#i:hover{
+    cursor: none;
+    color: white;
+}
+
+
+

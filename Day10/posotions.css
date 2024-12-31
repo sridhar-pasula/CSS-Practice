@@ -1,0 +1,32 @@
+#demo{
+    border: 2px solid;
+    height: 200px;
+    width: 200px;
+    position: static;
+    /* top: 200px;
+    left: 100px; */
+}
+#demo1{
+    border: 2px solid;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 300px ;
+    top:300px;
+}
+#de{
+    border: 2px solid;
+    height: 200px;
+    width: 200px;
+    position:absolute;
+    top:0;
+
+}
+#g{
+    border: 2px solid;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 0;
+    left: 215px;
+}

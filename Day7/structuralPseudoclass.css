@@ -1,0 +1,35 @@
+/* h1:first-child{
+    background-color: blue;
+} */
+ /* h1:last-child{
+    background-color: red;
+ } */
+ /* h1:nth-child(2){
+    background-color: chartreuse;
+ } */
+ /* h1:nth-child(even){
+    background-color: crimson;
+ } */
+  /* h1:first-of-type{
+    background-color: darkorange;
+  } */
+   /* h1:last-of-type{
+    background-color: crimson;
+   } */
+ol{
+    border: 2px solid;
+    padding: 0%;
+    list-style: none;
+    display:flex; 
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+}
+ol li a{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+ol li:first-child a{
+    text-decoration: none;
+}

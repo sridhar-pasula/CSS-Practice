@@ -1,0 +1,32 @@
+div{
+    border: 2px solid;
+    height: 700px;
+}
+@media(min-width: 320px) and (max-width:480px){
+    div{
+        background-color: orange;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    div h1{
+        color:green;
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 700;
+    }
+}
+@media(min-width: 480px) and (max-width:768px){
+    div{
+        background-color: red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    div h1{
+        color:yellow;
+        font-size: 35px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-weight: 700;
+    }
+}

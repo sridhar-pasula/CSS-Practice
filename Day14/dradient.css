@@ -1,0 +1,63 @@
+#demo1{
+    border: 2px solid;
+    height: 220px;
+    /* background-image: linear-gradient(purple,indigo,blue,green,yellow,orange,red); */
+    /* background-image: linear-gradient(to left,purple,indigo,blue,green,yellow,orange,red); */
+    /* background-image: linear-gradient(to right,purple,indigo,blue,green,yellow,orange,red); */
+    background-image: linear-gradient(to top,purple,indigo,blue,green,yellow,orange,red);
+
+}
+#demo2{
+    border: 2px solid;
+    height: 300px;
+    background-image: radial-gradient(purple,indigo,blue,green,yellow,orange,red);
+}
+#demo3{
+    border: 2px solid;
+    height: 300px;
+    width: 300px;
+    background-image: radial-gradient(circle,purple,indigo,blue,green,yellow,orange,red);
+}
+#demo4{
+    border: 2px solid;
+    height: 300px;
+    width: 300px;
+    background-image: radial-gradient(circle farthest-corner at 60% 60%,purple,white,blue,green,yellow,orange,red);
+}
+#demo4{
+    border: 2px solid;
+    height: 300px;
+    width: 300px;
+    background-image: radial-gradient(circle farthest-corner at 100% 100%,purple,white,blue,green,yellow,orange,red);
+}
+#demo5{
+    border: 2px solid;
+    height: 300px;
+    width: 300px;
+    background-image: radial-gradient(circle closest-corner at 60% 60%,purple,white,blue,green,yellow,orange,red);
+}
+#demo5{
+    border: 2px solid;
+    height: 300px;
+    width: 300px;
+    background-image: radial-gradient(circle closest-corner at 60% 100%,purple,white,blue,green,yellow,orange,red);
+}
+#demo6{
+    border: 2px solid;
+    height: 300px;
+    width: 300px;
+    background-image: radial-gradient(circle farthest-side at 60% 60%,purple,white,blue,green,yellow,orange,red);
+}
+#demo7{
+    border: 2px solid;
+    height: 300px;
+    width: 300px;
+    background-image: radial-gradient(circle closest-side at 60% 60%,purple,white,blue,green,yellow,orange,red);
+}
+
+#demo8{
+    border: 2px solid;
+    height: 300px;
+    width: 300px;
+    background-image: conic-gradient(purple,white,blue,green,yellow,orange,red);
+}

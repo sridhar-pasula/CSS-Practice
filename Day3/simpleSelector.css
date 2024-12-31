@@ -1,0 +1,42 @@
+#i1{
+    background-color: aqua;
+}
+#i2{
+    background-color: red;
+    text-align: center;
+}
+#i3{
+ background-color: burlywood;
+ color: forestgreen;
+}
+.c1{
+    background-color: black;
+    color: red;
+
+}
+.c2{
+    text-align: center;
+    text-decoration: line-through;
+}
+.c3{
+    text-align: right;
+    text-decoration: underline;
+}
+b{
+    /* element selector */
+    color: deeppink;
+    background-color: yellow;
+    font-style: italic;
+}
+h1,h2,.c1,b{ 
+    /* grouping selector */
+    border: 4px solid ;
+    padding-top: 20px;
+}
+*{   
+    
+    /* universal selector */
+    background-color: midnightblue;
+    
+    
+}

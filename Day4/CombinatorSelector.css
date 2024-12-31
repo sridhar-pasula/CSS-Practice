@@ -1,0 +1,22 @@
+/* descendant selector */
+div h2{ 
+    background-color: red;
+} 
+/* child selector */
+ div >h2{
+    background-color: beige;
+ } 
+
+/* div>span>h2{
+color: rgb(232, 22, 22);
+ }  */
+   /* adjascent sibling */
+   /* div+h2{
+    color: blueviolet;
+   }
+div+h2+h2{
+    color: chartreuse;
+} */
+div~h2,h1,p{
+    background-color: aquamarine;
+}

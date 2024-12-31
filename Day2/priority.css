@@ -1,0 +1,6 @@
+@import url(app.css);
+#i1{
+    background-color: pink;
+    text-align: right;
+    text-decoration: line-through;
+}

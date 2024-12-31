@@ -1,0 +1,15 @@
+ol{
+    border: 2px solid;
+    height: 60px;
+    list-style: none;
+    padding: 0%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+ol li{
+    height: 20px;
+    width: 55px;
+}

@@ -1,0 +1,41 @@
+p{
+    color: deeppink;
+    text-indent: 100px;
+    /* text-transform: uppercase; */
+    /* text-transform: lowercase; */
+    /* text-transform: capitalize; */
+    /* text-decoration: underline; */
+    /* text-decoration: line-through; */
+    /* text-decoration: overline; */
+    /* text-shadow: 5px 5px 1px grey; */
+    /* letter-spacing: 50px; */
+    /* word-spacing: 50px */
+    /* line-height: 50px; */
+    /* text-emphasis: "❤️"; */
+    text-decoration-line: line-through;
+    text-decoration-color: yellow;
+    text-decoration-style: wavy;
+}
+h1{
+    border: 2px solid red;
+    height: 150px;
+    width: 300px;
+    overflow: visible;
+    overflow: hidden;
+    overflow: scroll;
+    /* resize: horizontal; */
+    /* resize: vertical; */
+    resize: both;
+    text-wrap: nowrap;
+    text-overflow: clip;
+    /* text-overflow: ellipsis; */
+
+}
+body{
+    height: 150vh;
+    width: 2000vw;
+}
+body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}

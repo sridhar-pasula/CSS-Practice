@@ -1,0 +1,49 @@
+a:link{
+    color: green;
+    background-color: orange;
+}
+a:visited{
+    color:yellow;
+    background-color: darkgrey;
+}
+a:active{
+    color: crimson;
+    background-color: aquamarine;
+    
+}
+input[type='text']:focus{
+    height: 100px;
+    width: 500px;
+    color: deeppink;
+    caret-color: white; 
+    background-color: yellow;
+}
+input[type='checkbox']:checked{
+    height: 20px;
+    width:20px;
+    color: red;
+    accent-color: red;
+
+}
+input[type='radio']:checked{
+    height: 40px;
+    width:40px;
+    
+    accent-color: red;
+    color: blue;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: 100px;
+    border-radius: 10px;
+}
+label:hover{
+    color:deeppink;
+    font-size: 100px;
+}
+.bx bxl-instagram{
+    height: 100px;
+}
+

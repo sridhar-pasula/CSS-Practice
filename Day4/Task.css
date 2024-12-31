@@ -1,0 +1,44 @@
+ol li{
+    background-color: pink;
+    
+}
+ol ul li{
+    background-color: cyan;
+}
+ol ul li+li{
+    background-color: green;
+}
+ol ul li+li ul li{
+    background-color: yellow;
+}
+
+ol ul li+li ul li ol li{
+    background-color: blue;
+}
+ol ul li+li ul li ol li+li{
+    background-color: cyan;
+}
+ol ul li+li ul li+li{
+    background-color: crimson;
+}
+ol ul li+li+li{
+    background-color: orange;
+}
+ol li+li{
+    background-color: crimson;
+}
+ol li+li ol li{
+    background-color: cyan;
+}
+ol li+li ol li+li{
+    background-color: orange;
+}
+ol li+li ol li+li ul li{
+    background-color: cyan;
+}
+ol li+li ol li+li ul li+li{
+    background-color: green;
+}
+ol li+li ol li+li+li{
+    background-color: purple;
+}
